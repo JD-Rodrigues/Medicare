@@ -15,15 +15,24 @@
     animation-fill-mode: forwards;
 }
 
-/**/
+@keyframes slide-up {
+    from {top: 0%;}
+    to {top: -100%}
+}
 
-/*@keyframes slide {
-    0%{left: 0;}
-    15%{left: 0;}
-    18.3%{left: -100%;}
-    48.3%{left: -100%;}
-    51.6%{left: -200%;}
-    81.6%{left: -200%;}
-    85%{left: -300%;}
-    100%{left: 300%;}
-}*/
+.contact img:hover, footer img:hover {
+    animation-name: slide-up;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-down {
+    from {top: -100%;}
+    to {top: 0%}
+}
+
+.contact img:not(:hover), footer img:not(:hover) {
+    animation-name: slide-down;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
