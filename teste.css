@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.department-menu-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #888888;
+    height: 42px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e4e3e3;
+}
+
+.card-header-aside-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #3156a3;
+    height: 42px;
+    padding: 14px 15px 14px 15px;
+    box-sizing: border-box;
+}
+
+.card-minus-aside-menu {
+    font-size: 0.85rem;
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic-card-aside-menu {
+    width: 76px;
+}
+
+
+.text-card-aside-menu {
+    width: 222px;
+    height: 72px;
+}
