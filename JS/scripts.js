@@ -28,8 +28,7 @@ function slideDown(el) {
                 clearInterval(interval)
             }
         },2)
-    }
-    
+    }    
 }
 
 function slideUp(el) {
