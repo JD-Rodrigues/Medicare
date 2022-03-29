@@ -340,10 +340,11 @@ aside {
     margin-bottom: 7px;
 }
 .divisor-category {
-    width:50px;
+    width:1px;
     height: 2px;
     background-color: #42b3e5;
     margin-bottom: 33px;
+    transition: 1s;
 }
 
 /* Gadget cabeçalho de previsualização de posts da home */
