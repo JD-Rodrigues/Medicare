@@ -1,6 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root {
+    /*colors*/
+    --blue1: #42b3e5;
+    --blue2: #0284cf;
+    --purple: #3156a3;
+    --darkDesc: #727171;
+    /*sizes*/
+    --postTagsSize: 70%;
 }
 
 body {
@@ -100,7 +111,7 @@ nav a:hover {
 
 nav a:active, #home { /* a inserção do id "home" foi apenas para mostrar o estilo da opção ativa do menu, visto que isso ainda não pode ser visto na prática, por ainda não haver outras páginas. Deverá ser removido quando houver pelo menos mais uma página do site.*/
     color: white;
-    background-color: #42b3e5;
+    background-color: var(--blue1);
 }
 
 /* banner/carousel */
@@ -573,6 +584,10 @@ footer {
 
 footer a, footer a:visited {
     color:#cccccc;
+}
+
+footer .footer-cards a:visited {
+    color: white;
 }
 
  /*Footer cards */
