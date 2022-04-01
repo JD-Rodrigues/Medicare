@@ -15,6 +15,26 @@
     animation-fill-mode: forwards;
 }
 
+@keyframes flash {
+    0%{opacity: 0;}
+    3%{opacity: 0;}
+    10%{opacity: 0;}
+    13%{opacity: 1;}
+    33.3%{opacity: 1;}
+    63.3%{opacity: 1;}
+    66.6%{opacity: 1;}
+    95%{opacity: 1;}
+    97% {opacity: 0;}
+    100%{opacity: 0;}
+}
+
+.carousel-title-desc {
+    animation-name: flash;
+    animation-duration: 6s;
+    animation-delay: -500ms;
+    animation-iteration-count: infinite;
+}
+
 @keyframes slide-up {
     from {top: 0%;}
     to {top: -100%}
@@ -58,3 +78,4 @@
 .divisor-category {
     transition: 1s;
 }
+

@@ -89,12 +89,26 @@ header .container {
     letter-spacing:0.8px;
 }
 
+
+nav select {
+    display:none;
+    width: 214px;
+    background-color: #dddddd;
+    border: none;
+    text-transform: uppercase;
+}
+
+nav select:focus{
+    outline: 0;
+}
+
 nav ul{
     display: flex;
     list-style-type: none;
     justify-content: center;
     text-transform: uppercase;
     font-size: 13px;
+    max-width: 100%;
 }
 
 nav a {
@@ -321,7 +335,9 @@ main {
 aside {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 #aside-departament {
@@ -344,7 +360,6 @@ aside {
     height: 2px;
     background-color: #42b3e5;
     margin-bottom: 33px;
-    transition: 1s;
 }
 
 /* Gadget cabeçalho de previsualização de posts da home */
@@ -432,6 +447,10 @@ aside {
     cursor: pointer;
 }
 
+.card-body-aside-menu {
+    margin: 20px 0;
+}
+
 .department-menu-div {
     display: flex;
     justify-content: space-between;
@@ -464,12 +483,7 @@ aside {
     box-sizing: border-box;
 }
 
-.card-body-aside-menu {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    align-items: center;
-}
+
 
 .pic-card-aside-menu {
     width: 76px;
@@ -477,7 +491,8 @@ aside {
     background-image: url('../assets/images/pic-card-health.jpg');
     background-position: center;
     background-size: cover;
-    margin-right: 20px;
+    margin-right: 15px;
+    float: left;
 }
 
 
@@ -487,7 +502,7 @@ aside {
     font-size: 80%;
     color: #727171;
     font-family: Helvetica;
-    line-height: 18px;
+    line-height: 15px;
 }
 
 .card-footer-aside-menu {

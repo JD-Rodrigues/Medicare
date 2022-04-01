@@ -1,0 +1,132 @@
+
+@media screen and (max-width: 1000px){
+    .container {
+        width: 750px;
+        margin: auto;
+    }
+
+    nav a {
+        padding: 12px 7px;
+    }
+
+    #banner {
+        height: 410px;
+    }
+
+    .img {
+        background-size: contain;
+    }
+
+    .carousel-text {
+        top: -35px;
+    }
+
+    .carousel-text span {
+        font-size: 58px;
+        bottom: 5px;
+        line-height: 4rem;
+    }
+
+    .carousel-text p {
+        font-size: 22px;
+        top: 5px;
+        
+    }
+
+    .cards {
+        height: 202px;
+    }
+
+    .card1, .card2, .card3 {
+        padding: 23px;
+        padding-bottom: 22px;
+        padding-top: 11px;
+    }
+    .description-cards {
+
+        margin-top: 13px;
+        margin-bottom: 17px;
+    }
+
+    #content {
+        top: -105px;
+    }
+
+    aside {
+        width: 250px;
+    }
+
+    .posts-prev {
+        flex-direction: row;
+    }
+
+    .post-prev {
+        width: 100%;
+    }
+
+    .divisor-category {
+        margin-bottom: 26px;
+    }
+
+    .posts-prev {
+        height: 1780px;
+    }
+    
+    .show-all-posts {
+        margin-top: 0;
+    }
+
+    .frame-latest-tweets-footer {
+        height: 315px;
+    }
+
+    #footer-copy {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    .container {
+        width: 465px;
+    }
+
+    header .container{
+        height: 6px;
+        display: flex;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    nav select {
+        display:block;
+    }
+
+    #banner {
+        height: 300px;
+    }
+
+    .carousel-text span {
+        font-size: 40px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    #content {
+        top: -62px;
+    }
+
+    #main-aside{
+        margin-top: 300px;
+        flex-direction: column;
+    }
+
+    .post-prev {
+        margin-right: 0;
+    }
+        
+}
+

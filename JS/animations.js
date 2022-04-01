@@ -1,4 +1,5 @@
-window.onscroll=function (){
+
+onscroll=function (){
     let card1 = document.querySelector('.card1')
     let card2 = document.querySelector('.card2')
     let card3 = document.querySelector('.card3')
@@ -23,7 +24,7 @@ window.onscroll=function (){
         if (categoryDivisor[i].getBoundingClientRect().top<=580) {
             categoryDivisor[i].style.width='50px'
         }
-    }
-    
+    }    
 }
+
 
