@@ -418,6 +418,14 @@ aside {
     margin-bottom: 22px;
 }
 
+.post-prev-title a{
+    color: black;
+}
+
+.post-prev-title a:visited{
+    color: black;
+}
+
 .show-all-posts {
     display: flex;
     justify-content: flex-end;
